@@ -1,0 +1,50 @@
+.container {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bold;
+  height: auto;
+  width: auto;
+  border: 3px solid grey;
+}
+
+.container-header {
+  display: flex;
+  justify-content: center;
+  border: 2px solid blue;
+}
+
+.container-nav-bar {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  border: 2px solid orange;
+}
+
+.container-body {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bold;
+  height: 500px;
+}
+
+.item-logo {
+  border: 2px solid #749613;
+}
+
+.item-title {
+  width: auto;
+  border: 2px solid red;
+}
+
+.container-body {
+  border: 2px solid red;
+}
+
+.container-footer {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+.item-nav {
+  padding-left: 10px;
+}

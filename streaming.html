@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/streaming.css">
+  <title>bootsrap</title>
+</head>
+
+<body>
+  <div>
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link nav-home" href="home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-app" href="app.html">App</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-about" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-streaming" href="streaming.html">Streaming</a>
+      </li>
+    </ul>
+  </div>
+
+
+  <div id="demo" class="carousel slide" data-ride="carousel" style="width: 720px; margin: 0 auto">
+
+    <!-- Indicators -->
+    <div class="cindicators">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+    </div>
+
+    <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img" src="./assets/images/snk1.jpg" alt="Los Angeles">
+        </div>
+        <div class="carousel-item">
+          <img class="img" src="./assets/images/snk2.jpg" alt="Chicago">
+        </div>
+        <div class="carousel-item">
+          <img class="img" src="./assets/images/snk3.jpg" alt="New York">
+        </div>
+      </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  </div>
+
+  <div class="container-video">
+    <div>
+      <iframe class="video" width="854" height="480" src="https://www.youtube.com/embed/PPTanL6rQWA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
