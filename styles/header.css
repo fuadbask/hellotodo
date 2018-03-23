@@ -25,6 +25,7 @@ h1 {
 }
 
 .header {
+  padding: 20px;
   display: flex;
   justify-content: center;
   margin: 0;
@@ -93,6 +94,12 @@ h1 {
 
 .brown {
   color: white;
+}
+
+.ss {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
 }
 
 .footer {
