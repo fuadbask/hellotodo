@@ -8,6 +8,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles/streaming.css">
+  <link rel="stylesheet" href="./styles/streaming.css">
   <link rel="stylesheet" href="animate.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
@@ -15,22 +16,45 @@
 </head>
 
 <body>
-  <div>
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link nav-home" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link nav-app" href="app.html">App</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link nav-about" href="about.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link nav-streaming" href="streaming.html">Streaming</a>
-      </li>
-    </ul>
-  </div>
+
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark navigation">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="app.html">App <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="streaming.html">Streaming <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown navigation">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
 
 
   <div id="demo" class="carousel slide" data-ride="carousel" style="width: 720px; margin: 0 auto">
@@ -64,12 +88,6 @@
     <a class="carousel-control-next" href="#demo" data-slide="next">
     <span class="carousel-control-next-icon"></span>
   </a>
-  </div>
-
-  <div class="container-video">
-    <div>
-      <iframe class="video" width="854" height="480" src="https://www.youtube.com/embed/PPTanL6rQWA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
