@@ -10,3 +10,10 @@
 li .navigation {
   color: white;
 }
+
+.nav-background {
+  display: flex;
+  justify-content: space-around;
+  background: #3e3e3e;
+
+}
