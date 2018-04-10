@@ -5,7 +5,7 @@
   border-radius: 3px;
   margin-right: auto;
   margin-left: auto;
-  width: 300px;
+  width: 400px;
 }
 
 .label {
@@ -13,8 +13,23 @@
 }
 
 .margin {
-  width: 285px;
+  margin: 0px;
   margin-left: 10px;
+}
+
+.editText {
+  font-weight: bold;
+  font-family: 'Shadows Into Light Two', cursive;
+  border: 0px;
+  background: #f0f1f0;
+}
+
+.listener {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid grey;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .margin-top {
